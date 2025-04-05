@@ -10,7 +10,7 @@ const ServiceDetailsBanner = ({ banner, title }) => {
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-secondary/40 z-10 w-full h-full flex items-center justify-center">
-          <h3 className="heading-2 text-white">{title}</h3>
+          <h3 className="heading-2 text-white text-center">{title}</h3>
         </div>
       </div>
     </div>

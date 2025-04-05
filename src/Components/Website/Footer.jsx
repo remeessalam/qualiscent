@@ -1,5 +1,10 @@
 import React from "react";
-import { logo, services } from "../../data/constant";
+import {
+  logo,
+  services,
+  serviceslist1,
+  serviceslist2,
+} from "../../data/constant";
 import { websiteLinks } from "./Header";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
@@ -16,7 +21,7 @@ const Footer = () => {
             expertise to drive growth and success in the digital age.
           </p>
         </div>
-        <div className="px-5 pt-[2rem] pb-[4rem] grid lg:grid-cols-3 gap-10 lg:gap-0">
+        <div className="px-5 pt-[2rem] pb-[4rem] grid lg:grid-cols-4 gap-10 lg:gap-0">
           <div className="space-y-3">
             <h5 className="text-lg font-bold">Quick Links</h5>
             <ul className="space-y-2">
@@ -32,16 +37,31 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 ">
             <h5 className="text-lg font-bold">Services</h5>
-            <ul className="space-y-2">
-              {services.map((item) => (
-                <li>
+            <ul className="space-y-2  ">
+              {serviceslist1.map((item) => (
+                <li key={item}>
                   <Link
-                    to={`/services/${item.title}`}
-                    className="hover:text-secondary transition-all duration-200"
+                    to={`/services/${item}`}
+                    className="hover:text-secondary h-fit transition-all duration-200 "
                   >
-                    {item.title}
+                    {item}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="space-y-3 ">
+            {/* <h5 className="text-lg font-bold hidden h-[28px]">Services</h5> */}
+            <ul className="space-y-2  mt-[2.5rem]">
+              {serviceslist2.map((item) => (
+                <li key={item}>
+                  <Link
+                    to={`/services/${item}`}
+                    className="hover:text-secondary h-fit transition-all duration-200 "
+                  >
+                    {item}
                   </Link>
                 </li>
               ))}

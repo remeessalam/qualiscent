@@ -9,7 +9,11 @@ import { Link } from "react-router-dom";
 const BlogDetails = () => {
   return (
     <>
-      <PageBanner banner={banner} title="Blogs" />
+      <PageBanner
+        banner={banner}
+        title="Blogs"
+        desc={`Explore a comprehensive hub of knowledge where technology meets creativity. Our blog delivers valuable insights, emerging tech trends, expert perspectives, and practical guidance across AI, web and app development, blockchain, RPA, and more. Whether you're a tech enthusiast, a business leader, or a curious learner, our content is designed to keep you informed, inspired, and ready to thrive in the ever-evolving digital world.`}
+      />
       <div className="wrapper pt-[5rem]">
         <img
           src={blogs[0]}

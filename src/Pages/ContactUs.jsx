@@ -25,15 +25,13 @@ const ContactUs = () => {
           data-aos="fade-up"
           className="space-y-4 flex flex-col md:items-center md:text-center"
         >
-          <p className="uppercase text-primary">
-            contact us
-          </p>
+          <p className="uppercase text-primary">contact us</p>
           <h3 className="section-heading">
             If You Have Any Query, Feel Free To Contact Us
           </h3>
           <HrLine />
         </div>
-        <div className="pt-[3rem] grid md:grid-cols-3 gap-4">
+        <div className="pt-[3rem] grid md:grid-cols-2 gap-4">
           <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
             <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
               <ImPhone size={25} className="text-white" />
@@ -48,7 +46,7 @@ const ContactUs = () => {
               </Link>
             </div>
           </div>
-          <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
+          {/* <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
             <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
               <ImPhone size={25} className="text-white" />
             </div>
@@ -61,7 +59,7 @@ const ContactUs = () => {
                 {companyDetails.phone2}
               </Link>
             </div>
-          </div>
+          </div> */}
           <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
             <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
               <IoMail size={25} className="text-white" />

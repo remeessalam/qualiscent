@@ -14,11 +14,11 @@ const ServiceDetails = () => {
       <ServiceDetailsBanner banner={data.detailsPage.banner} title={title} />
       <div className="wrapper pt-[5rem] space-y-5">
         <h1 className="section-heading">{data.title}</h1>
-        <img
+        {/* <img
           src={data.detailsPage.img1}
           className="aspect-[6/4] md:aspect-[13/6] object-cover rounded-lg"
           alt={data.title}
-        />
+        /> */}
         <div
           className="pt-[1.5rem]"
           dangerouslySetInnerHTML={{ __html: data.detailsPage.firstSection }}
@@ -31,7 +31,7 @@ const ServiceDetails = () => {
             <img
               src={data.detailsPage.img2}
               alt={data.title}
-              className="rounded-lg aspect-square object-cover"
+              className="rounded-lg aspect-square max-h-[30rem] object-cover"
             />
           </div>
         </div>
@@ -40,7 +40,7 @@ const ServiceDetails = () => {
             <img
               src={data.detailsPage.img3}
               alt={data.title}
-              className="rounded-lg aspect-square object-cover"
+              className="rounded-lg max-h-[30rem] aspect-square object-cover"
             />
           </div>
           <div

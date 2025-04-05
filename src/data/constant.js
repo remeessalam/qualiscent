@@ -20,12 +20,18 @@ import { ReactComponent as appIcon1 } from "../assets/svg/services/iOS App Devel
 import { ReactComponent as appIcon2 } from "../assets/svg/services/Android.svg";
 import { ReactComponent as appIcon3 } from "../assets/svg/services/Flutter.svg";
 import { ReactComponent as appIcon4 } from "../assets/svg/services/Hybrid App Development.svg";
+import { ReactComponent as appIcon5 } from "../assets/svg/services/healthapp.svg";
+import { ReactComponent as appIcon6 } from "../assets/svg/services/e-comapp.svg";
+import { ReactComponent as appIcon7 } from "../assets/svg/services/realestateapp.svg";
+import { ReactComponent as appIcon8 } from "../assets/svg/services/fintechapp.svg";
 
 // web development services icons
 import { ReactComponent as webIcon1 } from "../assets/svg/services/E-Commerce Development.svg";
-import { ReactComponent as webIcon2 } from "../assets/svg/services/Social Media Websites.svg";
+import { ReactComponent as webIcon5 } from "../assets/svg/services/health.svg";
 import { ReactComponent as webIcon3 } from "../assets/svg/services/Web Development.svg";
 import { ReactComponent as webIcon4 } from "../assets/svg/services/UIUX Design.svg";
+import { ReactComponent as webIcon6 } from "../assets/svg/services/realestate.svg";
+import { ReactComponent as webIcon7 } from "../assets/svg/services/fintech.svg";
 import { FaGlobe } from "react-icons/fa";
 import { AiFillAppstore } from "react-icons/ai";
 
@@ -34,7 +40,7 @@ export { logo };
 export const companyDetails = {
   email: "xyz@example.com",
   phone: "+91-6354010408",
-  phone2: "+91-9870840408",
+  // phone2: "+91-9870840408",
   address: "C-503, Harmain 33, TP85 Road, Sarkhej, Ahmedabad - 380055",
 };
 
@@ -138,25 +144,37 @@ export const webDevelopmentServices = [
     id: 1,
     title: "E-commerce Websites",
     icon: webIcon1,
-    desc: "Empowering your online business with tailored ecommerce solutions. Our platforms boost customer engagement, streamline operations, and drive revenue growth. ",
+    desc: "Empowering your online business with tailored ecommerce solutions. Our platforms boost customer engagement, streamline operations, and drive revenue growth.",
   },
   {
     id: 2,
-    title: "Social Media Websites",
-    icon: webIcon2,
-    desc: "Get custom social media websites that captivate and engage your audience, driving growth and brand loyalty effortlessly",
+    title: "Landing Websites",
+    icon: webIcon3,
+    desc: "Creating high-converting landing pages that capture attention and drive action. Tailored designs that showcase your brand’s message and maximize conversions.",
   },
   {
     id: 3,
-    title: "Landing Websites",
-    icon: webIcon3,
-    desc: " Creating high-converting landing pages that capture attention and drive action. Tailored designs that showcase your brand’s message and maximize conversions.",
-  },
-  {
-    id: 4,
     title: "Custom Websites",
     icon: webIcon4,
     desc: "Delivering tailor-made websites designed to meet your unique business needs. Our solutions blend creativity and functionality for an exceptional online experience.",
+  },
+  {
+    id: 4,
+    title: "Healthcare Websites",
+    icon: webIcon5,
+    desc: "Building secure and user-friendly healthcare websites that streamline patient interactions, enhance care delivery, and comply with medical standards.",
+  },
+  {
+    id: 5,
+    title: "Real Estate Websites",
+    icon: webIcon6,
+    desc: "Showcase property listings with visually appealing, easy-to-navigate real estate websites that boost leads and simplify client engagement.",
+  },
+  {
+    id: 6,
+    title: "FinTech Websites",
+    icon: webIcon7,
+    desc: "Developing robust, compliant, and innovative fintech websites to support digital finance solutions, ensuring trust, performance, and security.",
   },
 ];
 
@@ -172,19 +190,43 @@ export const appDevelopmentServices = [
     id: 2,
     title: "Android App Development",
     icon: appIcon2,
-    desc: "We design and develop tailor-made Android apps that align with your vision and business goals.Proficient in both Java and Kotlin, we build robust and efficient apps.",
+    desc: "We design and develop tailor-made Android apps that align with your vision and business goals. Proficient in both Java and Kotlin, we build robust and efficient apps.",
   },
   {
     id: 3,
     title: "Flutter App Development",
     icon: appIcon3,
-    desc: "Flutter allows you to build apps for both iOS and Android using a single codebase. While Flutter's default web app architecture presents challenges, we can overcome them with smart strategies. ",
+    desc: "Flutter allows you to build apps for both iOS and Android using a single codebase. While Flutter's default web app architecture presents challenges, we can overcome them with smart strategies.",
   },
   {
     id: 4,
     title: "Hybrid App Development",
     icon: appIcon4,
     desc: "We build feature-rich hybrid apps tailored to your business needs. We create mobile-friendly apps that work seamlessly across iOS and Android devices.",
+  },
+  {
+    id: 5,
+    title: "Healthcare App Development",
+    icon: appIcon5,
+    desc: "We create secure, HIPAA-compliant healthcare apps that support patient engagement, telemedicine, appointment booking, and more, all while ensuring usability and privacy.",
+  },
+  {
+    id: 6,
+    title: "E-commerce App Development",
+    icon: appIcon6,
+    desc: "Build scalable and engaging e-commerce apps with features like easy product browsing, secure payments, and real-time order tracking to drive your online sales.",
+  },
+  {
+    id: 7,
+    title: "Real Estate App Development",
+    icon: appIcon7,
+    desc: "Custom real estate apps that make it easy for users to browse listings, view properties, schedule visits, and connect with agents — all in a seamless interface.",
+  },
+  {
+    id: 8,
+    title: "FinTech App Development",
+    icon: appIcon8,
+    desc: "We design and develop secure and scalable fintech apps for banking, payments, budgeting, and investments — focused on performance, compliance, and user trust.",
   },
 ];
 
@@ -2140,4 +2182,22 @@ export const services = [
       `,
     },
   },
+];
+
+export const serviceslist1 = [
+  "Mobile App Development",
+  "Web Development (Full stack)",
+  "Cloud Computing Services",
+  "Artificial Intelligence Development",
+  "Data Analytics and Business Intelligence",
+  "Internet of Things (IoT) Development",
+];
+export const serviceslist2 = [
+  "Virtual Reality (VR) and Augmented Reality (AR) Development",
+  "Blockchain Development",
+  "Game Development",
+  "Chatbot Development",
+  "AI Calling Agency",
+  "UI/UX Design",
+  "QA Services",
 ];

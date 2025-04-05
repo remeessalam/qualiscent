@@ -12,7 +12,11 @@ import Testimonials from "../Components/Testimonials";
 const AboutUs = () => {
   return (
     <>
-      <PageBanner banner={banner} title="About Us" />
+      <PageBanner
+        banner={banner}
+        title="About Us"
+        desc="At Qualiscent Infotech LLP, we turn visionary ideas into transformative digital solutions. With a mission rooted in innovation and a vision focused on global impact, we partner with businesses to lead the future of technology."
+      />
       <section className="pt-[5rem] wrapper grid md:grid-cols-2 gap-7">
         <div data-aos="fade-up" className="space-y-4">
           <p className="uppercase text-primary text-start">Our Vision</p>

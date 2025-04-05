@@ -71,14 +71,23 @@ const BlogsSection = () => {
   );
   return (
     <section className="pt-[4rem] wrapper">
-      <div data-aos='fade-up' className="space-y-4 flex flex-col sm:items-center sm:text-center max-w-2xl mx-auto">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="-1000"
+        className="space-y-4 flex flex-col sm:items-center sm:text-center max-w-2xl mx-auto"
+      >
         <p className="uppercase text-primary">latest blogs</p>
         <h3 className="section-heading">
           Read The Latest Articles from Our Blog Post
         </h3>
         <HrLine />
       </div>
-      <div data-aos="fade-up" ref={sliderRef} className="keen-slider mt-7">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="-1000"
+        ref={sliderRef}
+        className="keen-slider mt-7"
+      >
         {blogs.map((item) => (
           <BlogItem key={item} item={item} />
         ))}
@@ -86,6 +95,7 @@ const BlogsSection = () => {
       {loaded && instanceRef.current && (
         <div
           data-aos="fade-up"
+          data-aos-offset="-1000"
           className="flex items-center justify-center gap-4 mt-5"
         >
           <button

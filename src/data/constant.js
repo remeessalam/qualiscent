@@ -235,36 +235,36 @@ export const portfolio = {
   appDevelopment: {
     icon: <AiFillAppstore size={30} />,
     list: [
-      {
-        id: 1,
-        title: "Barbera",
-        link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
-      },
+      // {
+      //   id: 1,
+      //   title: "Barbera",
+      //   link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+      // },
       {
         id: 2,
         title: "Rentop",
         link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
       },
-      {
-        id: 3,
-        title: "Binfoclub",
-        link: "https://play.google.com/store/apps/details?id=com.binfoclub.app&pcampaignid=web_share",
-      },
-      {
-        id: 4,
-        title: "Prayer Times",
-        link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
-      },
-      {
-        id: 5,
-        title: "Evans Francis",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-      },
-      {
-        id: 6,
-        title: "HOD",
-        link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-      },
+      // {
+      //   id: 3,
+      //   title: "Binfoclub",
+      //   link: "https://play.google.com/store/apps/details?id=com.binfoclub.app&pcampaignid=web_share",
+      // },
+      // {
+      //   id: 4,
+      //   title: "Prayer Times",
+      //   link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+      // },
+      // {
+      //   id: 5,
+      //   title: "Evans Francis",
+      //   link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
+      // },
+      // {
+      //   id: 6,
+      //   title: "HOD",
+      //   link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
+      // },
       {
         id: 7,
         title: "AutoSnap",
@@ -280,11 +280,11 @@ export const portfolio = {
         title: "Ocxee",
         link: "https://apps.apple.com/in/app/ocxee/id1522856353",
       },
-      {
-        id: 10,
-        title: "Dubai Travel Guide",
-        link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
-      },
+      // {
+      //   id: 10,
+      //   title: "Dubai Travel Guide",
+      //   link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+      // },
     ],
   },
   webDevelopment: {

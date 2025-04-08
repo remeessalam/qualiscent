@@ -42,6 +42,9 @@ export const companyDetails = {
   phone: "+91-6354010408",
   // phone2: "+91-9870840408",
   address: "C-503, Harmain 33, TP85 Road, Sarkhej, Ahmedabad - 380055",
+  linkedin: "https://www.linkedin.com/company/qualiscent-infotech",
+  instagram: "https://www.instagram.com/qualiscent_infotech/",
+  facebook: "https://www.facebook.com/profile.php?id=61574663503825",
 };
 
 export const testimonials = [

@@ -63,7 +63,10 @@ const Testimonials = () => {
       </div>
       <div data-aos="fade-up" className="keen-slider mt-[2rem]" ref={sliderRef}>
         {testimonials.map((item) => (
-          <div key={item.name} className="keen-slider__slide bg-primary/10">
+          <div
+            key={item.name}
+            className="keen-slider__slide bg-primary/10 rounded-xl"
+          >
             <div className="flex items-center gap-2 px-5 pt-5 pb-3 ">
               <div className="w-[3.5rem] min-w-[3.5rem] h-[3.5rem] bg-gray-300 rounded-full flex justify-center items-center">
                 <FaRegUserCircle className="w-8 h-8 text-gray-500" />

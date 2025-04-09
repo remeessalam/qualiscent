@@ -53,7 +53,7 @@ const PortfolioList = () => {
               <button
                 key={category.key}
                 onClick={() => setSelectedCategory(category)}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
+                className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all duration-300 ${
                   selectedCategory.key === category.key
                     ? "bg-primary text-white shadow-lg scale-105"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
@@ -73,17 +73,19 @@ const PortfolioList = () => {
           {getAllItems().map((item) => (
             <div
               key={item.title}
-              className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-md"
+              className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-xl"
             >
               {selectedCategory.icon}
-              <h3 className="text-lg font-medium text-center">{item.title}</h3>
-              <Link
+              <Link to={item.link} className="text-lg font-medium text-center">
+                {item.title}
+              </Link>
+              {/* <Link
                 target="_blank"
                 to={item.link}
                 className="flex items-center gap-2 hover:underline"
               >
                 <IoIosLink /> <small>Visit</small>
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>

@@ -7,7 +7,7 @@ const BlogItem = ({ item }) => {
     <Link
       to="/blogs/1"
       key={item}
-      className="keen-slider__slide space-y-2 border border-black/20 group"
+      className="keen-slider__slide space-y-2 border border-black/20 group rounded-xl"
     >
       <img
         src={item}

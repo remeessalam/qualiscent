@@ -35,7 +35,7 @@ const ContactForm = () => {
             assist you in generating an accurate quote.
           </p>
           <div className="mt-7 flex gap-3 sm:justify-center sm:w-fit w-full">
-            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+            <div className="bg-primary rounded-xl h-full aspect-square flex justify-center items-center p-3">
               <ImPhone size={25} className="text-white" />
             </div>
             <div className="flex flex-col capitalize">
@@ -52,33 +52,33 @@ const ContactForm = () => {
         <form
           data-aos="fade-up"
           data-aos-offset="-1000"
-          className="bg-primary p-7 space-y-3"
+          className="bg-primary p-7 space-y-3 rounded-xl"
         >
           <div>
             <input
               type="text"
-              className="w-full p-2 bg-primary-5 outline-none"
+              className="w-full p-2 bg-primary-5 outline-none rounded-xl"
               placeholder="Full Name*"
             />
           </div>
           <div>
             <input
               type="email"
-              className="w-full p-2 bg-primary-5 outline-none"
+              className="w-full p-2 bg-primary-5 outline-none rounded-xl"
               placeholder="Email*"
             />
           </div>
           <div>
             <input
               type="text"
-              className="w-full p-2 bg-primary-5 outline-none"
+              className="w-full p-2 bg-primary-5 outline-none rounded-xl"
               placeholder="Subject*"
             />
           </div>
           <div>
             <textarea
               rows="5"
-              className="w-full p-2 bg-primary-5 outline-none"
+              className="w-full p-2 bg-primary-5 outline-none rounded-xl"
               placeholder="Message*"
             />
           </div>

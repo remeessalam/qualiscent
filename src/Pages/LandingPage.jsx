@@ -95,12 +95,12 @@ const LandingPage = ({ page }) => {
         </div>
       </section>
       <div className="wrapper pt-[3rem] sm:pt-0 sm:-translate-y-1/3 md:-translate-y-1/2">
-        <div className="grid md:grid-cols-3">
+        <div className="grid md:grid-cols-3 rounded-xl overflow-hidden">
           <div
             data-aos="fade-up"
             className="bg-primary w-full text-white flex gap-3 justify-center p-6"
           >
-            <div className="bg-white h-full aspect-square flex justify-center items-center p-3">
+            <div className="bg-white rounded-xl h-full aspect-square flex justify-center items-center p-3">
               <BsPersonArmsUp size={50} className="text-primary" />
             </div>
             <div className="flex flex-col gap-2">
@@ -120,7 +120,7 @@ const LandingPage = ({ page }) => {
             data-aos="fade-up"
             className="bg-[#EAF9FF] w-full text-primary flex gap-3 justify-center p-6"
           >
-            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+            <div className="bg-primary rounded-xl h-full aspect-square flex justify-center items-center p-3">
               <GiCheckMark size={45} className="text-white" />
             </div>
             <div className="flex flex-col gap-2">
@@ -140,7 +140,7 @@ const LandingPage = ({ page }) => {
             data-aos="fade-up"
             className="bg-primary w-full text-white flex gap-3 justify-center p-6"
           >
-            <div className="bg-white h-full aspect-square flex justify-center items-center p-3">
+            <div className="bg-white rounded-xl h-full aspect-square flex justify-center items-center p-3">
               <FaPeopleGroup size={50} className="text-primary" />
             </div>
             <div className="flex flex-col gap-2">
@@ -234,7 +234,7 @@ const LandingPage = ({ page }) => {
             </div>
             <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
               <div className="flex gap-3 sm:justify-center sm:w-fit w-full">
-                <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+                <div className="bg-primary rounded-xl h-full aspect-square flex justify-center items-center p-3">
                   <BiSupport size={25} className="text-white" />
                 </div>
                 <div className="flex flex-col">
@@ -272,7 +272,7 @@ const LandingPage = ({ page }) => {
         <div className="mt-[2rem] grid sm:grid-cols-2 md:grid-cols-3 gap-7">
           <div data-aos="fade-up" className="flex flex-col gap-7">
             <div className="space-y-3">
-              <div className="bg-primary w-[3.5rem] aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl w-[3.5rem] aspect-square flex justify-center items-center p-3">
                 <FaRegThumbsUp size={30} className="text-white" />
               </div>
               <div className="space-y-1">
@@ -285,7 +285,7 @@ const LandingPage = ({ page }) => {
               </div>
             </div>
             <div className="space-y-3">
-              <div className="bg-primary w-[3.5rem] aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl w-[3.5rem] aspect-square flex justify-center items-center p-3">
                 <FaAward size={30} className="text-white" />
               </div>
               <div className="space-y-1">
@@ -310,7 +310,7 @@ const LandingPage = ({ page }) => {
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-7">
             <div className="space-y-3">
-              <div className="bg-primary w-[3.5rem] aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl w-[3.5rem] aspect-square flex justify-center items-center p-3">
                 <FaPeopleGroup size={30} className="text-white" />
               </div>
               <div className="space-y-1">
@@ -322,7 +322,7 @@ const LandingPage = ({ page }) => {
               </div>
             </div>
             <div className="space-y-3">
-              <div className="bg-primary w-[3.5rem] aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl w-[3.5rem] aspect-square flex justify-center items-center p-3">
                 <LuHeartHandshake size={30} className="text-white" />
               </div>
               <div className="space-y-1">

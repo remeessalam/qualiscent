@@ -8,14 +8,14 @@ const ContactForm2 = () => {
           <input
             type="text"
             placeholder="Full Name"
-            className="p-2 outline-none bg-primary/10 rounded w-full"
+            className="p-2 outline-none bg-primary/10 rounded-xl w-full"
           />
         </div>
         <div>
           <input
             type="email"
             placeholder="Email Address"
-            className="p-2 outline-none bg-primary/10 rounded w-full"
+            className="p-2 outline-none bg-primary/10 rounded-xl w-full"
           />
         </div>
       </div>
@@ -23,14 +23,14 @@ const ContactForm2 = () => {
         <input
           type="text"
           placeholder="Subject"
-          className="p-2 outline-none bg-primary/10 rounded w-full"
+          className="p-2 outline-none bg-primary/10 rounded-xl w-full"
         />
       </div>
       <div>
         <textarea
           rows="5"
           placeholder="Message"
-          className="p-2 outline-none bg-primary/10 rounded w-full"
+          className="p-2 outline-none bg-primary/10 rounded-xl w-full"
         />
       </div>
       <button type="button" className="primary-btn">

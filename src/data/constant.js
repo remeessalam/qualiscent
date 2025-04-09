@@ -2193,10 +2193,10 @@ export const serviceslist1 = [
   "Cloud Computing Services",
   "Artificial Intelligence Development",
   "Data Analytics and Business Intelligence",
-  "Internet of Things (IoT) Development",
+  "IoT Development",
 ];
 export const serviceslist2 = [
-  "Virtual Reality (VR) and Augmented Reality (AR) Development",
+  "VR and AR Development",
   "Blockchain Development",
   "Game Development",
   "Chatbot Development",

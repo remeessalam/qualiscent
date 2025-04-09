@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const PageBanner = ({ banner, title, desc }) => {
   return (
     <div className="pt-[5rem] md:pt-[7rem]">
-      <div className="aspect-[6/4] md:aspect-[19/6] relative">
+      <div className="aspect-[6/5] md:aspect-[19/6] relative">
         <img
           src={banner}
           alt={title}
@@ -17,18 +17,18 @@ const PageBanner = ({ banner, title, desc }) => {
               data-aos="fade-up"
               className="flex text-white items-center text-xl gap-3"
             >
-              <Link
+              {/* <Link
                 to="/"
                 className="hover:text-primary section-heading duration-200 transition-all"
               >
                 Home
-              </Link>
-              <MdOutlineArrowForwardIos className="-mt-1" />
-              <p className="section-heading">{title}</p>
+              </Link> */}
+              {/* <MdOutlineArrowForwardIos className="-mt-1" /> */}
+              {/* <p className="section-heading">{title}</p> */}
             </div>
             <p
               data-aos="fade-up"
-              className="max-w-[40rem] mt-3 text-white text-center"
+              className="max-w-[40rem] sm:px-0 px-2 mt-3  sm:text-2xl text-white text-center"
             >
               {desc}
             </p>

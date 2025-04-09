@@ -39,7 +39,7 @@ const AboutUs = () => {
               Request A Quote
             </Link>
             <div className="flex gap-3 sm:justify-center sm:w-fit w-full">
-              <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl h-full aspect-square flex justify-center items-center p-3">
                 <ImPhone size={25} className="text-white" />
               </div>
               <div className="flex flex-col capitalize">
@@ -57,7 +57,7 @@ const AboutUs = () => {
         <div data-aos="fade-up" className="w-full h-full">
           <img
             src={visionImg}
-            className="w-full h-full object-cover object-bottom rounded-lg"
+            className="w-full h-full object-cover object-bottom rounded-xl"
             alt="Our Vision"
           />
         </div>
@@ -66,7 +66,7 @@ const AboutUs = () => {
         <div data-aos="fade-up" className="md:block hidden w-full h-full">
           <img
             src={missionImg}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-xl"
             alt="Our Mission"
           />
         </div>
@@ -103,7 +103,7 @@ const AboutUs = () => {
               Request A Quote
             </Link>
             <div className="flex gap-3 sm:justify-center sm:w-fit w-full">
-              <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+              <div className="bg-primary rounded-xl h-full aspect-square flex justify-center items-center p-3">
                 <ImPhone size={25} className="text-white" />
               </div>
               <div className="flex flex-col capitalize">

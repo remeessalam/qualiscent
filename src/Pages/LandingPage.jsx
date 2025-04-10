@@ -159,9 +159,9 @@ const LandingPage = ({ page }) => {
         </div>
       </div>
 
-      <ContactForm />
+      {/* <ContactForm /> */}
 
-      {/* <div className="pt-[2rem] wrapper flex flex-col-reverse md:grid grid-cols-[auto_55%] gap-7">
+      <div className="pt-[2rem] wrapper flex flex-col-reverse md:grid grid-cols-[auto_55%] gap-7">
         <div className="">
           <ContactForm2 />
         </div>
@@ -195,7 +195,7 @@ const LandingPage = ({ page }) => {
             you take the next steps with confidence.
           </p>
         </div>
-      </div> */}
+      </div>
 
       <section id="about" className="pt-[5rem]">
         <div className="wrapper grid md:grid-cols-2 gap-7">

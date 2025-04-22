@@ -68,24 +68,31 @@ const PortfolioList = () => {
         {/* Portfolio Grid */}
         <div
           data-aos="fade-up"
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6 w-full"
+          className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6 w-full"
         >
           {getAllItems().map((item) => (
             <div
               key={item.title}
               className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-xl"
             >
-              {selectedCategory.icon}
+              <div>
+                <img
+                  src={item.img}
+                  alt=""
+                  className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]"
+                />
+              </div>
+              {/* {selectedCategory.icon} */}
               <Link to={item.link} className="text-lg font-medium text-center">
                 {item.title}
               </Link>
-              {/* <Link
+              <Link
                 target="_blank"
                 to={item.link}
                 className="flex items-center gap-2 hover:underline"
               >
                 <IoIosLink /> <small>Visit</small>
-              </Link> */}
+              </Link>
             </div>
           ))}
         </div>

@@ -27,8 +27,8 @@ const ContactForm = () => {
     emailBody += "Message:\n" + values.message;
 
     const googleFormData = new URLSearchParams();
-    googleFormData.append("NAME", values.fullName);
-    googleFormData.append("EMAILID", values.email);
+    googleFormData.append("Name", values.fullName);
+    googleFormData.append("Email", values.email);
     googleFormData.append("Subject", values.subject);
     googleFormData.append("Message", values.message);
 

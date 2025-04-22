@@ -38,6 +38,7 @@ import { AiFillAppstore } from "react-icons/ai";
 export { logo };
 
 export const companyDetails = {
+  name: "Qualiscent Infotech",
   email: "xyz@example.com",
   phone: "+91-6354010408",
   // phone2: "+91-9870840408",

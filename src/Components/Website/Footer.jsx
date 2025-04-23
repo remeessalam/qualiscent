@@ -71,12 +71,12 @@ const Footer = () => {
             <h5 className="text-lg font-bold">Services</h5>
             <ul className="space-y-2  ">
               {serviceslist1.map((item) => (
-                <li key={item}>
+                <li key={item.link}>
                   <Link
-                    to={`/services/${item}`}
+                    to={`/services/${item.link}`}
                     className="hover:text-secondary h-fit transition-all duration-200 "
                   >
-                    {item}
+                    {item.title}
                   </Link>
                 </li>
               ))}
@@ -86,12 +86,12 @@ const Footer = () => {
             {/* <h5 className="text-lg font-bold hidden h-[28px]">Services</h5> */}
             <ul className="space-y-2  mt-[2.5rem]">
               {serviceslist2.map((item) => (
-                <li key={item}>
+                <li key={item.link}>
                   <Link
-                    to={`/services/${item}`}
+                    to={`/services/${item.link}`}
                     className="hover:text-secondary h-fit transition-all duration-200 "
                   >
-                    {item}
+                    {item.title}
                   </Link>
                 </li>
               ))}

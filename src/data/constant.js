@@ -329,6 +329,7 @@ export const services = [
   {
     id: 1,
     title: "Mobile App Development",
+    link: "mobile-app-development",
     icon: icon1,
     desc: "Transform your business with our cutting-edge mobile applications. We develop high-performance, user-friendly apps for iOS and Android that engage customers and drive growth.",
     detailsPage: {
@@ -426,6 +427,7 @@ export const services = [
   {
     id: 2,
     title: "Web Development (Full stack)",
+    link: "web-development",
     icon: icon2,
     desc: "Comprehensive full-stack web development services that deliver robust, scalable, and high-performance web applications tailored to your business needs.",
     detailsPage: {
@@ -523,6 +525,7 @@ export const services = [
   {
     id: 3,
     title: "Cloud Computing Services",
+    link: "cloud-computing-services",
     icon: icon3,
     desc: "Scalable, secure, and reliable cloud solutions that empower your business with flexibility, cost-efficiency, and enterprise-grade performance.",
     detailsPage: {
@@ -620,6 +623,7 @@ export const services = [
   {
     id: 4,
     title: "Artificial Intelligence Development",
+    link: "artificial-intelligence-development",
     icon: icon4,
     desc: "Cutting-edge AI solutions that automate processes, enhance decision-making, and create intelligent systems to give your business a competitive edge.",
     detailsPage: {
@@ -717,6 +721,7 @@ export const services = [
   {
     id: 5,
     title: "Data Analytics and Business Intelligence",
+    link: "data-analytics-and-business-intelligence",
     icon: icon5,
     desc: "Turn your data into actionable insights with our advanced analytics and BI solutions that drive informed decision-making and business growth.",
     detailsPage: {
@@ -814,6 +819,7 @@ export const services = [
   {
     id: 6,
     title: "Internet of Things (IoT) Development",
+    link: "internet-of-things",
     icon: icon6,
     desc: "Innovative IoT solutions that connect devices, collect data, and enable smart automation to transform your business operations and customer experiences.",
     detailsPage: {
@@ -911,6 +917,7 @@ export const services = [
   {
     id: 7,
     title: "Virtual Reality (VR) and Augmented Reality (AR) Development",
+    link: "vr-ar-development",
     icon: icon7,
     desc: "Immersive VR and AR experiences that engage customers, enhance training, and create innovative solutions for retail, education, healthcare, and more.",
     detailsPage: {
@@ -1008,6 +1015,7 @@ export const services = [
   {
     id: 8,
     title: "Blockchain Development",
+    link: "blockchain-development",
     icon: icon8,
     desc: "Secure, transparent, and decentralized blockchain solutions that revolutionize industries through smart contracts, cryptocurrency, and distributed ledger technology.",
     detailsPage: {
@@ -1105,6 +1113,7 @@ export const services = [
   {
     id: 9,
     title: "Game Development",
+    link: "game-development",
     icon: icon9,
     desc: "Engaging, high-quality game development services that create immersive experiences across mobile, console, PC, and VR platforms.",
     detailsPage: {
@@ -1202,6 +1211,7 @@ export const services = [
   {
     id: 10,
     title: "Chatbot Development",
+    link: "chatbot-development",
     icon: icon10,
     desc: "Intelligent chatbot solutions that enhance customer service, automate interactions, and provide 24/7 support across multiple platforms and languages.",
     detailsPage: {
@@ -1299,6 +1309,7 @@ export const services = [
   {
     id: 11,
     title: "AI Calling Agency",
+    link: "ai-calling-agency",
     icon: icon11,
     desc: "Intelligent AI-powered calling solutions that automate customer outreach, lead generation, and support services with natural, human-like interactions.",
     detailsPage: {
@@ -1390,6 +1401,7 @@ export const services = [
   {
     id: 12,
     title: "UI/UX Design",
+    link: "ui-ux-design",
     icon: icon12,
     desc: "Beautiful, intuitive user interfaces and experiences that engage users, enhance usability, and drive conversions for your digital products.",
     detailsPage: {
@@ -1487,6 +1499,7 @@ export const services = [
   {
     id: 13,
     title: "QA Services",
+    link: "qa-services",
     icon: icon13,
     desc: "Comprehensive quality assurance and testing services that ensure your software is bug-free, performs optimally, and delivers exceptional user experiences.",
     detailsPage: {
@@ -1584,19 +1597,28 @@ export const services = [
 ];
 
 export const serviceslist1 = [
-  "Mobile App Development",
-  "Web Development (Full stack)",
-  "Cloud Computing Services",
-  "Artificial Intelligence Development",
-  "Data Analytics and Business Intelligence",
-  "IoT Development",
+  { title: "Mobile App Development", link: "mobile-app-development" },
+  { title: "Web Development (Full stack)", link: "web-development" },
+  { title: "Cloud Computing Services", link: "cloud-computing-services" },
+  {
+    title: "Artificial Intelligence Development",
+    link: "artificial-intelligence-development",
+  },
+  {
+    title: "Data Analytics and Business Intelligence",
+    link: "data-analytics-and-business-intelligence",
+  },
+  { title: "IoT Development", link: "internet-of-things" },
 ];
 export const serviceslist2 = [
-  "VR and AR Development",
-  "Blockchain Development",
-  "Game Development",
-  "Chatbot Development",
-  "AI Calling Agency",
-  "UI/UX Design",
-  "QA Services",
+  {
+    title: "VR and AR Development",
+    link: "vr-ar-development",
+  },
+  { title: "Blockchain Development", link: "blockchain-development" },
+  { title: "Game Development", link: "game-development" },
+  { title: "Chatbot Development", link: "chatbot-development" },
+  { title: "AI Calling Agency", link: "ai-calling-agency" },
+  { title: "UI/UX Design", link: "ui-ux-design" },
+  { title: "QA Services", link: "qa-services" },
 ];

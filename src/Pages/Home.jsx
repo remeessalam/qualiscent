@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className="pt-[5rem]">
       <section
-        className="relative min-h-screen flex items-center justify-center bg-black/30"
+        className="relative min-h-screen flex items-center bg-cover bg-center bg-no-repeat justify-center bg-black/30"
         style={{ backgroundImage: `url(${homebanner})` }}
       >
         <div className="absolute w-full h-full bg-black/40" />

@@ -20,7 +20,7 @@ const Services = ({ title, heading, data }) => {
       >
         {data.map((item) => (
           <Link
-            to={item.detailsPage && `/services/${item.title}`}
+            to={item.detailsPage && `/services/${item.link}`}
             key={item.id}
             className="relative overflow-hidden group bg-primary/10 px-5 py-10 flex flex-col items-center gap-2 rounded-xl hover:bg-primary/30 transition-all duration-200"
           >
@@ -32,7 +32,7 @@ const Services = ({ title, heading, data }) => {
             {item.detailsPage && (
               <Link
                 className="absolute z-30 w-0 inset-0 group-hover:w-full group-hover:h-full bg-secondary/40 flex items-center justify-center transition-all duration-200"
-                to={`/services/${item.title}`}
+                to={`/services/${item.link}`}
               >
                 <LuCircleArrowOutUpRight className="text-3xl text-white" />
               </Link>

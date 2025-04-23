@@ -7,7 +7,7 @@ import ContactForm from "../Components/ContactForm";
 
 const ServiceDetails = () => {
   const { title } = useParams();
-  const data = services.find((item) => item.title === title);
+  const data = services.find((item) => item.link === title);
 
   return (
     <>

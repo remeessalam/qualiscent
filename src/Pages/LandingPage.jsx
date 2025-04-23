@@ -39,7 +39,11 @@ const LandingPage = ({ page }) => {
           backgroundImage: `url(${isWeb ? webbannerimage : appbannerimage})`,
         }}
       >
-        <div className="absolute w-full h-full bg-black/30" />
+        <div
+          className={`absolute w-full h-full ${
+            isWeb ? `bg-black/30` : `bg-black/50`
+          }`}
+        />
         <div className="pt-[4rem] md:pt-[8rem] pb-[4rem]">
           <div
             data-aos="fade-up"

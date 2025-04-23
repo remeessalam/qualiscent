@@ -78,7 +78,7 @@ const PortfolioList = () => {
               <div>
                 <img
                   src={item.img}
-                  alt=""
+                  alt={item.title}
                   className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]"
                 />
               </div>

@@ -1,10 +1,10 @@
 import logo from "../assets/logo/logo.png";
 
 // services icons (website)
-import { ReactComponent as icon1 } from "../assets/svg/services/App Development.svg";
-import { ReactComponent as icon2 } from "../assets/svg/services/Web Development.svg";
+import { ReactComponent as icon1 } from "../assets/svg/services/App-Development.svg";
+import { ReactComponent as icon2 } from "../assets/svg/services/Web-Development.svg";
 import { ReactComponent as icon3 } from "../assets/svg/services/cloudcomputing.svg";
-import { ReactComponent as icon4 } from "../assets/svg/services/AI Development.svg";
+import { ReactComponent as icon4 } from "../assets/svg/services/AI-Development.svg";
 import { ReactComponent as icon5 } from "../assets/svg/services/dataanalytics.svg";
 import { ReactComponent as icon6 } from "../assets/svg/services/iot.svg";
 import { ReactComponent as icon7 } from "../assets/svg/services/vrar.svg";
@@ -12,24 +12,24 @@ import { ReactComponent as icon8 } from "../assets/svg/services/blockchain.svg";
 import { ReactComponent as icon9 } from "../assets/svg/services/game.svg";
 import { ReactComponent as icon10 } from "../assets/svg/services/Chatbots.svg";
 import { ReactComponent as icon11 } from "../assets/svg/services/aicalling.svg";
-import { ReactComponent as icon12 } from "../assets/svg/services/UIUX Design.svg";
+import { ReactComponent as icon12 } from "../assets/svg/services/UIUX-Design.svg";
 import { ReactComponent as icon13 } from "../assets/svg/services/qa.svg";
 
 // app development services icons
-import { ReactComponent as appIcon1 } from "../assets/svg/services/iOS App Development.svg";
+import { ReactComponent as appIcon1 } from "../assets/svg/services/iOS-App-Development.svg";
 import { ReactComponent as appIcon2 } from "../assets/svg/services/Android.svg";
 import { ReactComponent as appIcon3 } from "../assets/svg/services/Flutter.svg";
-import { ReactComponent as appIcon4 } from "../assets/svg/services/Hybrid App Development.svg";
+import { ReactComponent as appIcon4 } from "../assets/svg/services/Hybrid-App-Development.svg";
 import { ReactComponent as appIcon5 } from "../assets/svg/services/healthapp.svg";
 import { ReactComponent as appIcon6 } from "../assets/svg/services/e-comapp.svg";
 import { ReactComponent as appIcon7 } from "../assets/svg/services/realestateapp.svg";
 import { ReactComponent as appIcon8 } from "../assets/svg/services/fintechapp.svg";
 
 // web development services icons
-import { ReactComponent as webIcon1 } from "../assets/svg/services/E-Commerce Development.svg";
+import { ReactComponent as webIcon1 } from "../assets/svg/services/E-Commerce-Development.svg";
 import { ReactComponent as webIcon5 } from "../assets/svg/services/health.svg";
-import { ReactComponent as webIcon3 } from "../assets/svg/services/Web Development.svg";
-import { ReactComponent as webIcon4 } from "../assets/svg/services/UIUX Design.svg";
+import { ReactComponent as webIcon3 } from "../assets/svg/services/Web-Development.svg";
+import { ReactComponent as webIcon4 } from "../assets/svg/services/UIUX-Design.svg";
 import { ReactComponent as webIcon6 } from "../assets/svg/services/realestate.svg";
 import { ReactComponent as webIcon7 } from "../assets/svg/services/fintech.svg";
 import { FaGlobe } from "react-icons/fa";
@@ -38,17 +38,17 @@ import { AiFillAppstore } from "react-icons/ai";
 // porfolio image
 // Import all images at the top (Web Development)
 import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
-import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
-import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
-import AkashMegaMart from "../assets/web-development-portfolio/Akash Mega Mart.png";
-import MidwamImmersive from "../assets/web-development-portfolio/Midwam – Immersive Experience Design Company.png";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.png";
+import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.png";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.png";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
 
 // Import all images at the top (App Development)
-import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop – Bike & Car Rentals.jpg";
-import AkashMegaMartApp from "../assets/app-development-portfolio/Akash Mega Mart Mobile App.jpg";
-import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt Mobile App.jpg";
-import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics Mobile App.jpg";
-import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap Mobile App.jpg";
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.jpg";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.jpg";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.jpg";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.jpg";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.jpg";
 
 export { logo };
 

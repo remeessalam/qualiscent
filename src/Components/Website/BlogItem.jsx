@@ -11,7 +11,7 @@ const BlogItem = ({ item }) => {
     >
       <img
         src={item.thumbnail}
-        alt=""
+        alt={item.title}
         className="w-full aspect-video group-hover:brightness-75 duration-200 transition-all"
       />
       <div className="px-5 py-4 space-y-2">

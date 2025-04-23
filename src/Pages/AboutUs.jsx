@@ -58,7 +58,7 @@ const AboutUs = () => {
           <img
             src={visionImg}
             className="w-full h-full object-cover object-bottom rounded-xl"
-            alt="Our Vision"
+            alt="Our-Vision"
           />
         </div>
       </section>
@@ -67,7 +67,7 @@ const AboutUs = () => {
           <img
             src={missionImg}
             className="w-full h-full object-cover rounded-xl"
-            alt="Our Mission"
+            alt="Our-Mission"
           />
         </div>
         <div data-aos="fade-up" className="space-y-4">
@@ -83,7 +83,7 @@ const AboutUs = () => {
             <img
               src={missionImg}
               className="w-full h-full object-cover rounded-lg"
-              alt="Our Mission"
+              alt="Our-Mission"
             />
           </div>
           <p>

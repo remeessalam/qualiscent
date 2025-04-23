@@ -152,7 +152,7 @@ const Home = () => {
             <div className="md:hidden flex flex-col pb-3">
               <img
                 src={aboutImg}
-                alt="About Us"
+                alt="About-Us"
                 className="h-full w-full aspect-video object-cover rounded-xl"
               />
             </div>
@@ -203,7 +203,7 @@ const Home = () => {
           <div data-aos="fade-up" className="hidden md:flex flex-col">
             <img
               src={aboutImg}
-              alt="About Us"
+              alt="About-Us"
               className="h-full w-full object-cover rounded-xl"
             />
           </div>
@@ -255,7 +255,7 @@ const Home = () => {
           >
             <img
               src={whyChooseImg}
-              alt="Why Choose Us"
+              alt="Why-Choose-Us"
               className="md:aspect-[2/3] w-full h-full object-cover object-bottom"
             />
           </div>

@@ -15,7 +15,7 @@ const ContactUs = () => {
         <div className="aspect-[6/4] md:aspect-[19/8] relative">
           <img
             src={banner}
-            alt="Contact Us"
+            alt="Contact-Us"
             className="w-full h-full object-cover object-top"
           />
         </div>

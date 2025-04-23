@@ -3,12 +3,13 @@ import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import HrLine from "../HrLine";
 import BlogItem from "./BlogItem";
+import { blogs } from "../../data/blog";
 
-export const blogs = [
-  "https://thefusioneer.com/wp-content/uploads/2023/11/5-AI-Advancements-to-Expect-in-the-Next-10-Years-scaled.jpeg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdiVKkCOalScNbSItxmwr6ftdO9CvmsAZ5Lg&s",
-  "https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg",
-];
+// export const blogs = [
+//   "https://thefusioneer.com/wp-content/uploads/2023/11/5-AI-Advancements-to-Expect-in-the-Next-10-Years-scaled.jpeg",
+//   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdiVKkCOalScNbSItxmwr6ftdO9CvmsAZ5Lg&s",
+//   "https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg",
+// ];
 
 const BlogsSection = () => {
   const [loaded, setLoaded] = useState(false);

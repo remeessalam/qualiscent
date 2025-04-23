@@ -28,22 +28,31 @@ const Portfolio = ({ page }) => {
             {data.list.map((item) => (
               <div
                 key={item.title}
-                className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-xl"
+                className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 pt-5 pb-4 gap-3 rounded-xl"
               >
-                {data.icon}
+                <Link to={item.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]"
+                  />
+                </Link>
+                {/* {selectedCategory.icon} */}
                 <Link
                   to={item.link}
-                  className="text-lg font-medium text-center"
+                  className="text-lg font-medium text-center leading-none mt-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {item.title}
                 </Link>
                 {/* <Link
-                  target="_blank"
-                  to={item.link}
-                  className="flex items-center gap-2 hover:underline"
-                >
-                  <IoIosLink /> <small>Visit</small>
-                </Link> */}
+                             target="_blank"
+                             to={item.link}
+                             className="flex items-center gap-2 hover:underline"
+                           >
+                             <IoIosLink /> <small>Visit</small>
+                           </Link> */}
               </div>
             ))}
           </div>

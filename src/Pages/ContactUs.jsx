@@ -33,7 +33,7 @@ const ContactUs = () => {
         </div>
         <div className="pt-[3rem] grid md:grid-cols-2 gap-4">
           <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
-            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
+            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3 rounded-xl">
               <ImPhone size={25} className="text-white" />
             </div>
             <div className="flex flex-col capitalize">
@@ -61,8 +61,8 @@ const ContactUs = () => {
             </div>
           </div> */}
           <div data-aos="fade-up" className="flex gap-3 sm:justify-center">
-            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3">
-              <IoMail size={25} className="text-white" />
+            <div className="bg-primary h-full aspect-square flex justify-center items-center p-3 rounded-xl">
+              <IoMail size={25} className="text-white " />
             </div>
             <div className="flex flex-col capitalize">
               <p className="">Email to get free Quote</p>

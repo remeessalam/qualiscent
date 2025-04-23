@@ -26,12 +26,16 @@ const Footer = () => {
           <div className="flex gap-4 lg:justify-end">
             <Link
               to={companyDetails.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-secondary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaLinkedinIn className="fill-white" size={16} strokeWidth={1} />
             </Link>
             <Link
               to={companyDetails.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-secondary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaInstagram
@@ -42,13 +46,15 @@ const Footer = () => {
             </Link>
             <Link
               to={companyDetails.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-secondary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaFacebookF className="fill-white" size={16} strokeWidth={1} />
             </Link>
-            <Link className="w-7 h-7 flex hover:bg-secondary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            {/* <Link className="w-7 h-7 flex hover:bg-secondary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaXTwitter className="fill-white" size={16} strokeWidth={1} />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="px-5 pt-[2rem] pb-[2rem] grid lg:grid-cols-3 gap-10 lg:gap-0">

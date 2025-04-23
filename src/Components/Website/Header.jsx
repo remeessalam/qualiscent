@@ -41,12 +41,16 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <Link
               to={companyDetails.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaLinkedinIn className="fill-white" size={16} strokeWidth={1} />
             </Link>
             <Link
               to={companyDetails.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaInstagram
@@ -57,13 +61,15 @@ const Header = () => {
             </Link>
             <Link
               to={companyDetails.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white"
             >
               <FaFacebookF className="fill-white" size={16} strokeWidth={1} />
             </Link>
-            <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
+            {/* <Link className="w-7 h-7 flex hover:bg-primary transition-all duration-200 justify-center items-center rounded-full border border-white">
               <FaXTwitter className="fill-white" size={16} strokeWidth={1} />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

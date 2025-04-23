@@ -56,8 +56,8 @@ const ContactForm2 = () => {
     googleFormData.append("Message", values.message);
 
     var payload = {
-      // to: companyDetails.email,
-      to: "remeesreme4u@gmail.com",
+      to: companyDetails.email,
+      // to: "remeesreme4u@gmail.com",
       name: companyDetails?.name || "Qualiscent Infotech",
       subject: values.subject,
       html: emailBody,

@@ -264,7 +264,7 @@ export const portfolio = {
         id: 2,
         img: FeelItMobileApp,
         title: "FeelIt Mobile App",
-        link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
+        link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
       },
       {
         id: 3,

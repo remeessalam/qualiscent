@@ -29,18 +29,18 @@ export const blogs = [
         <p>Ready to scale? Let’s build something exceptional.</p>
       `,
   },
-  {
-    id: 3,
-    title: "Why Businesses are Turning to IoT for Smarter Operations",
-    slug: "iot-for-smarter-operations",
-    thumbnail: blog3,
-    summary:
-      "IoT is empowering businesses with real-time data and smarter decision-making. Discover how our custom IoT solutions help companies transform operations and improve safety.",
-    content: `
-        <p>The Internet of Things (IoT) is connecting the physical and digital worlds in revolutionary ways.</p>
-        <p>At <strong>Qualiscent Infotech</strong>, we help businesses deploy intelligent IoT solutions that enable real-time monitoring, predictive maintenance, and streamlined operations. From smart factories to connected healthcare systems, our IoT projects bring data-driven insights and automation to the forefront.</p>
-        <p>By integrating custom dashboards, secure communication protocols, and scalable cloud infrastructure, we ensure your devices work seamlessly together.</p>
-        <p>Want to improve efficiency and reduce downtime? Let’s bring IoT to your operations.</p>
-      `,
-  },
+  //   {
+  //     id: 3,
+  //     title: "Why Businesses are Turning to IoT for Smarter Operations",
+  //     slug: "iot-for-smarter-operations",
+  //     thumbnail: blog3,
+  //     summary:
+  //       "IoT is empowering businesses with real-time data and smarter decision-making. Discover how our custom IoT solutions help companies transform operations and improve safety.",
+  //     content: `
+  //         <p>The Internet of Things (IoT) is connecting the physical and digital worlds in revolutionary ways.</p>
+  //         <p>At <strong>Qualiscent Infotech</strong>, we help businesses deploy intelligent IoT solutions that enable real-time monitoring, predictive maintenance, and streamlined operations. From smart factories to connected healthcare systems, our IoT projects bring data-driven insights and automation to the forefront.</p>
+  //         <p>By integrating custom dashboards, secure communication protocols, and scalable cloud infrastructure, we ensure your devices work seamlessly together.</p>
+  //         <p>Want to improve efficiency and reduce downtime? Let’s bring IoT to your operations.</p>
+  //       `,
+  //   },
 ];

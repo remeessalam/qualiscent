@@ -73,26 +73,29 @@ const PortfolioList = () => {
           {getAllItems().map((item) => (
             <div
               key={item.title}
-              className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-xl"
+              className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 pt-5 pb-4 gap-3 rounded-xl"
             >
-              <div>
+              <Link to={item.link}>
                 <img
                   src={item.img}
                   alt={item.title}
                   className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]"
                 />
-              </div>
+              </Link>
               {/* {selectedCategory.icon} */}
-              <Link to={item.link} className="text-lg font-medium text-center">
+              <Link
+                to={item.link}
+                className="text-lg font-medium text-center leading-none mt-2"
+              >
                 {item.title}
               </Link>
-              <Link
+              {/* <Link
                 target="_blank"
                 to={item.link}
                 className="flex items-center gap-2 hover:underline"
               >
                 <IoIosLink /> <small>Visit</small>
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>

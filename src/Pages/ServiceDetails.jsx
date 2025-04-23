@@ -48,7 +48,7 @@ const ServiceDetails = () => {
           ></div>
         </div>
       </div>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactForm />
     </>
   );

@@ -21,7 +21,7 @@ const OurServices = () => {
         title="Our Services"
         heading="Custom IT Solutions for Your Successful Business"
       />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactForm />
     </div>
   );

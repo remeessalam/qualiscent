@@ -119,7 +119,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <Testimonials />
+      {/* <Testimonials /> */}
     </>
   );
 };

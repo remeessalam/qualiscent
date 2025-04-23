@@ -291,7 +291,7 @@ const Home = () => {
       />
       <PortfolioList />
       <ContactForm />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <BlogsSection />
     </div>
   );

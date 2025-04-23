@@ -75,7 +75,7 @@ const PortfolioList = () => {
               key={item.title}
               className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 pt-5 pb-4 gap-3 rounded-xl"
             >
-              <Link to={item.link}>
+              <Link to={item.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={item.img}
                   alt={item.title}
@@ -86,6 +86,8 @@ const PortfolioList = () => {
               <Link
                 to={item.link}
                 className="text-lg font-medium text-center leading-none mt-2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {item.title}
               </Link>

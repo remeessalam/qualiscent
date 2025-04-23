@@ -18,22 +18,49 @@ const ContactForm2 = () => {
     if (spinner) return;
     setSpinner(true);
 
-    var emailBody = "Name: " + values.fullName + "\n\n";
-    emailBody += "Email: " + values.email + "\n\n";
-    emailBody += "Subject: " + values.subject + "\n\n";
-    emailBody += "Message:\n" + values.message;
+    // var emailBody = "Name: " + values.fullName + "\n\n";
+    // emailBody += "Email: " + values.email + "\n\n";
+    // emailBody += "Subject: " + values.subject + "\n\n";
+    // emailBody += "Message:\n" + values.message;
+    var emailBody = `
+    <div style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+      <h2 style="color: #2c3e50; margin-bottom: 16px;">New Contact Form Submission</h2>
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="background-color: #f4f4f4;">
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 15%;">Name</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 20%;">Email</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 10%;">Phone</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 15%;">Subject</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 40%;">Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">${values.fullName}</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">${values.email}</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">${values.phone}</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">${values.subject}</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">${values.message}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
 
     const googleFormData = new URLSearchParams();
     googleFormData.append("Name", values.fullName);
     googleFormData.append("Email", values.email);
+    googleFormData.append("Email", values.phone);
     googleFormData.append("Subject", values.subject);
     googleFormData.append("Message", values.message);
 
     var payload = {
-      to: companyDetails.email,
+      // to: companyDetails.email,
+      to: "remeesreme4u@gmail.com",
       name: companyDetails?.name || "Qualiscent Infotech",
       subject: values.subject,
-      body: emailBody,
+      html: emailBody,
     };
     const googleFormURL =
       "https://script.google.com/macros/s/AKfycbzlukNBNQwwYTipMWk0yFduO60yuWKedUSSRK_uPFRruiYrlIQbw1wMwQJYPDw5ETc4qw/exec";
@@ -105,6 +132,23 @@ const ContactForm2 = () => {
               <span className="text-red-500 text-sm">Email is required</span>
             )}
           </div>
+        </div>
+        <div className="flex flex-col">
+          <input
+            type="tel"
+            className="p-2 outline-none bg-white rounded-xl w-full"
+            placeholder="Phone Number"
+            {...register("phone", {
+              required: "Phone number is required",
+              pattern: {
+                value: /^[6-9]\d{9}$/i,
+                message: "Entered phone number is invalid",
+              },
+            })}
+          />
+          <small className="text-red-500 text-sm">
+            {errors.phone?.message}
+          </small>
         </div>
         <div>
           <input

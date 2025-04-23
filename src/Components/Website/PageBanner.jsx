@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const PageBanner = ({ banner, title, desc }) => {
   return (
     <div className="pt-[5rem] md:pt-[7rem]">
-      <div className="aspect-[6/5] md:aspect-[19/6] relative">
+      <div className="aspect-[6/5] md:aspect-[19/8] relative">
         <img
           src={banner}
           alt={title}
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-center"
         />
         {title && (
           <div className="absolute inset-0 bg-secondary/70 z-10 w-full h-full flex flex-col items-center justify-center">

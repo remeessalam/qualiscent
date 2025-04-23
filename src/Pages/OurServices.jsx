@@ -1,6 +1,6 @@
 import React from "react";
 import PageBanner from "../Components/Website/PageBanner";
-import banner from "../assets/images/banners/services.webp";
+import banner from "../assets/images/banners/services.jpeg";
 import Services from "../Components/Services";
 import { services } from "../data/constant";
 import Testimonials from "../Components/Testimonials";

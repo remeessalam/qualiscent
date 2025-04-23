@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/images/banners/aboutus.webp";
+import banner from "../assets/images/banners/aboutus.jpeg";
 import PageBanner from "../Components/Website/PageBanner";
 import HrLine from "../Components/HrLine";
 import { Link } from "react-router-dom";

@@ -27,12 +27,19 @@ import { TiArrowBack } from "react-icons/ti";
 import { ImPhone } from "react-icons/im";
 import Portfolio from "../Components/LandingPage/Portfolio";
 import { Link as Scroll } from "react-scroll";
-
+import webbannerimage from "../assets/images/banners/web-landingpage-banner-image.jpeg";
+import appbannerimage from "../assets/images/banners/app-landing-page-banner-image.jpeg";
 const LandingPage = ({ page }) => {
   const isWeb = page === "web";
   return (
     <div id="banner" className="pt-[5rem]">
-      <section className="relative min-h-screen flex items-center justify-center bg-black/30">
+      <section
+        className="relative min-h-screen flex items-center bg-no-repeat bg-cover  bg-top justify-center bg-black/30"
+        style={{
+          backgroundImage: `url(${isWeb ? webbannerimage : appbannerimage})`,
+        }}
+      >
+        <div className="absolute w-full h-full bg-black/30" />
         <div className="pt-[4rem] md:pt-[8rem] pb-[4rem]">
           <div
             data-aos="fade-up"
@@ -62,7 +69,7 @@ const LandingPage = ({ page }) => {
             </div>
           </div>
         </div>
-        <div className="">
+        {/* <div className="">
           <ReactPlayer
             url={bannerVid}
             playing
@@ -92,7 +99,7 @@ const LandingPage = ({ page }) => {
               },
             }}
           />
-        </div>
+        </div> */}
       </section>
       <div className="wrapper pt-[3rem] sm:pt-0 sm:-translate-y-1/3 md:-translate-y-1/2">
         <div className="grid md:grid-cols-3 rounded-xl overflow-hidden">

@@ -1,10 +1,10 @@
 import React from "react";
-import banner from "../assets/images/banners/blogs.webp";
+import banner from "../assets/images/banners/blogs.jpeg";
 import PageBanner from "../Components/Website/PageBanner";
-import { blogs } from "../Components/Website/BlogsSection";
 import BlogItem from "../Components/Website/BlogItem";
 import HrLine from "../Components/HrLine";
 import ContactForm from "../Components/ContactForm";
+import { blogs } from "../data/blog";
 
 const Blogs = () => {
   return (

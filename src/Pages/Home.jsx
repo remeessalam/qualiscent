@@ -18,11 +18,15 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import Testimonials from "../Components/Testimonials";
 import BlogsSection from "../Components/Website/BlogsSection";
 import PortfolioList from "../Components/Website/PortfolioList";
-
+import homebanner from "../assets/images/banners/homebanner.jpeg";
 const Home = () => {
   return (
     <div className="pt-[5rem]">
-      <section className="relative min-h-screen flex items-center justify-center bg-black/30">
+      <section
+        className="relative min-h-screen flex items-center justify-center bg-black/30"
+        style={{ backgroundImage: `url(${homebanner})` }}
+      >
+        <div className="absolute w-full h-full bg-black/40" />
         <div className="pt-[4rem] md:pt-[8rem] pb-[4rem]">
           <div
             data-aos="fade-up"
@@ -42,7 +46,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        {/* <div className="">
           <ReactPlayer
             url={bannerVid}
             playing
@@ -72,7 +76,7 @@ const Home = () => {
               },
             }}
           />
-        </div>
+        </div> */}
       </section>
       <div className="wrapper pt-[3rem] sm:pt-0 sm:-translate-y-1/3 md:-translate-y-1/2">
         <div className="grid md:grid-cols-3 rounded-xl overflow-hidden">

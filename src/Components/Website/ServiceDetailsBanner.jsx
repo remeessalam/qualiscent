@@ -3,7 +3,7 @@ import React from "react";
 const ServiceDetailsBanner = ({ banner, title }) => {
   return (
     <div className="pt-[5rem] md:pt-[7rem]">
-      <div className="aspect-[6/4] md:aspect-[19/6] relative">
+      <div className="aspect-[6/4] md:aspect-[19/8] relative">
         <img
           src={banner}
           alt={title}

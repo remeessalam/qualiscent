@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/images/banners/contact-us.webp";
+import banner from "../assets/images/banners/contact-us.jpg";
 import HrLine from "../Components/HrLine";
 import { ImPhone } from "react-icons/im";
 import { Link } from "react-router-dom";
@@ -12,11 +12,11 @@ const ContactUs = () => {
   return (
     <>
       <div className="pt-[5rem] md:pt-[7rem]">
-        <div className="aspect-[6/4] md:aspect-[19/6] relative">
+        <div className="aspect-[6/4] md:aspect-[19/8] relative">
           <img
             src={banner}
             alt="Contact Us"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-top"
           />
         </div>
       </div>

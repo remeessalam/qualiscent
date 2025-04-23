@@ -51,7 +51,7 @@ const ContactForm2 = () => {
     const googleFormData = new URLSearchParams();
     googleFormData.append("Name", values.fullName);
     googleFormData.append("Email", values.email);
-    googleFormData.append("Email", values.phone);
+    googleFormData.append("Phone", values.phone);
     googleFormData.append("Subject", values.subject);
     googleFormData.append("Message", values.message);
 

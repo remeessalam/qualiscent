@@ -112,9 +112,9 @@ const Header = () => {
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="right"
-        className="z-10 p-2"
+        className="z-10 p-2 overflow-y-scroll"
       >
-        <div className="mb-6 flex items-center justify-between px-[.7rem] py-[.4rem]">
+        <div className="mb-6 flex items-center justify-between px-[.7rem] py-[.4rem] ">
           <img
             src={logo}
             width="auto"
@@ -126,7 +126,7 @@ const Header = () => {
             <IoClose size={28} />
           </button>
         </div>
-        <div className="py-4 px-7 flex flex-col gap-4 text-black">
+        <div className="py-4 sm:py-2 md:py-4 px-7 flex flex-col gap-4 sm:gap-2 md:gap-4 text-black overflow-y-scroll">
           {websiteLinks.map((link) => (
             <Link
               onClick={() => setIsOpen(false)}

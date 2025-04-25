@@ -21,13 +21,13 @@ import PortfolioList from "../Components/Website/PortfolioList";
 import homebanner from "../assets/images/banners/homebanner.jpeg";
 const Home = () => {
   return (
-    <div className="pt-[5rem]">
+    <div className="pt-[5rem] sm:pt-[7rem] md:pt-[5rem]">
       <section
         className="relative min-h-screen flex items-center bg-cover bg-center bg-no-repeat justify-center bg-black/30"
         style={{ backgroundImage: `url(${homebanner})` }}
       >
         <div className="absolute w-full h-full bg-black/40" />
-        <div className="pt-[4rem] md:pt-[8rem] pb-[4rem]">
+        <div className="pt-[8rem] md:pt-[8rem] pb-[4rem]">
           <div
             data-aos="fade-up"
             className="wrapper flex flex-col text-center text-white gap-5 justify-center h-full"
@@ -78,7 +78,7 @@ const Home = () => {
           />
         </div> */}
       </section>
-      <div className="wrapper pt-[3rem] sm:pt-0 sm:-translate-y-1/3 md:-translate-y-1/2">
+      <div className="wrapper pt-[3rem] md:pt-0  md:-translate-y-1/2">
         <div className="grid md:grid-cols-3 rounded-xl overflow-hidden">
           <div
             data-aos="fade-up"

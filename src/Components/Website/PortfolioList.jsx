@@ -79,7 +79,8 @@ const PortfolioList = () => {
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]"
+                  // className="rounded-xl max-h-[295px] sm:max-w-[325px] sm:max-h-[325px]  sm:min-h-[325px] object-cover"
+                  className="rounded-xl aspect-square object-cover"
                 />
               </Link>
               {/* {selectedCategory.icon} */}

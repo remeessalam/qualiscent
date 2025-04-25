@@ -116,7 +116,7 @@ const ContactForm2 = () => {
               {...register("fullName", { required: true })}
             />
             {errors.fullName && (
-              <span className="text-red-500 text-sm">
+              <span className="text-red-400 text-sm">
                 Full Name is required
               </span>
             )}
@@ -129,7 +129,7 @@ const ContactForm2 = () => {
               {...register("email", { required: true })}
             />
             {errors.email && (
-              <span className="text-red-500 text-sm">Email is required</span>
+              <span className="text-red-400 text-sm">Email is required</span>
             )}
           </div>
         </div>
@@ -138,15 +138,35 @@ const ContactForm2 = () => {
             type="tel"
             className="p-2 outline-none bg-white rounded-xl w-full"
             placeholder="Phone Number"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            onKeyDown={(e) => {
+              const allowedKeys = [
+                "Backspace",
+                "ArrowLeft",
+                "ArrowRight",
+                "Tab",
+                "Delete",
+              ];
+              if (!/^[0-9]$/.test(e.key) && !allowedKeys.includes(e.key)) {
+                e.preventDefault();
+              }
+            }}
             {...register("phone", {
               required: "Phone number is required",
-              pattern: {
-                value: /^[6-9]\d{9}$/i,
-                message: "Entered phone number is invalid",
+              min: {
+                value: 1,
+                message: "Phone number must be at least 1",
               },
+              max: {
+                value: 9999999999,
+                message: "Phone number is too long",
+              },
+              validate: (value) =>
+                /^[0-9]+$/.test(value) || "Only numeric values are allowed",
             })}
           />
-          <small className="text-red-500 text-sm">
+          <small className="text-red-400 text-sm">
             {errors.phone?.message}
           </small>
         </div>
@@ -158,7 +178,7 @@ const ContactForm2 = () => {
             {...register("subject", { required: true })}
           />
           {errors.subject && (
-            <span className="text-red-500 text-sm">Subject is required</span>
+            <span className="text-red-400 text-sm">Subject is required</span>
           )}
         </div>
         <div>
@@ -169,7 +189,7 @@ const ContactForm2 = () => {
             {...register("message", { required: true })}
           />
           {errors.message && (
-            <span className="text-red-500 text-sm">Message is required</span>
+            <span className="text-red-400 text-sm">Message is required</span>
           )}
         </div>
         <button type="submit" className="secondary-btn">

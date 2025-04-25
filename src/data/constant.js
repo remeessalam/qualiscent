@@ -44,11 +44,11 @@ import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.p
 import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
 
 // Import all images at the top (App Development)
-import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.jpg";
-import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.jpg";
-import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.jpg";
-import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.jpg";
-import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.jpg";
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.png";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.png";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.png";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.png";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.png";
 
 export { logo };
 

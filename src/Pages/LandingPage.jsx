@@ -32,7 +32,7 @@ import appbannerimage from "../assets/images/banners/app-landing-page-banner-ima
 const LandingPage = ({ page }) => {
   const isWeb = page === "web";
   return (
-    <div id="banner" className="pt-[6.5rem]">
+    <div id="banner" className="pt-[5rem]">
       <section
         className="relative min-h-screen flex items-center bg-no-repeat bg-cover  bg-top justify-center bg-black/30"
         style={{

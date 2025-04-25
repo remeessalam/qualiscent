@@ -333,7 +333,7 @@ export const services = [
     icon: icon1,
     desc: "Transform your business with our cutting-edge mobile applications. We develop high-performance, user-friendly apps for iOS and Android that engage customers and drive growth.",
     detailsPage: {
-      banner: require("../assets/images/banners/app-development.jpeg"),
+      banner: require("../assets/images/banners/app-development.png"),
       img1: require("../assets/images/service-details/app-dev-1.webp"),
       img2: require("../assets/images/service-details/app-dev-2.webp"),
       img3: require("../assets/images/service-details/app-dev-3.webp"),

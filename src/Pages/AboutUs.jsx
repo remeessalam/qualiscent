@@ -25,14 +25,14 @@ const AboutUs = () => {
           </h3>
           <HrLine />
           <p>
-            At Qualiscent Infotech LLP Pvt. Ltd., our vision is to be the global
-            leader in providing innovative IT solutions that drive digital
-            transformation and business growth. We aim to empower businesses
-            worldwide by delivering cutting-edge technologies that unlock new
-            opportunities, enhance efficiency, and create sustainable success.
-            By fostering a culture of continuous innovation and excellence, we
-            strive to be the go-to partner for organizations seeking to stay
-            ahead in a rapidly evolving digital landscape.
+            At Qualiscent Infotech LLP, our vision is to be the global leader in
+            providing innovative IT solutions that drive digital transformation
+            and business growth. We aim to empower businesses worldwide by
+            delivering cutting-edge technologies that unlock new opportunities,
+            enhance efficiency, and create sustainable success. By fostering a
+            culture of continuous innovation and excellence, we strive to be the
+            go-to partner for organizations seeking to stay ahead in a rapidly
+            evolving digital landscape.
           </p>
           <div className="flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-10 pt-5">
             <Link to="/contact-us" className="primary-btn sm:w-fit w-full">

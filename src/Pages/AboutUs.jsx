@@ -8,10 +8,21 @@ import visionImg from "../assets/images/vision.webp";
 import missionImg from "../assets/images/mission.webp";
 import { ImPhone } from "react-icons/im";
 import Testimonials from "../Components/Testimonials";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          About Qualiscent Infotech - Trusted IT Partner for Gujarat SMBs
+        </title>
+        <meta
+          name="description"
+          content="Meet our expert team dedicated to helping small businesses in Gujarat grow through technology. Years of experience in affordable IT solutions and remote support."
+        />
+      </Helmet>
+
       <PageBanner
         banner={banner}
         title="About Us"

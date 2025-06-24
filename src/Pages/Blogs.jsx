@@ -5,10 +5,21 @@ import BlogItem from "../Components/Website/BlogItem";
 import HrLine from "../Components/HrLine";
 import ContactForm from "../Components/ContactForm";
 import { blogs } from "../data/blog";
+import { Helmet } from "react-helmet-async";
 
 const Blogs = () => {
   return (
     <>
+      {" "}
+      <Helmet>
+        <title>
+          IT Insights & Tips for Small Business | Qualiscent Infotech Blog{" "}
+        </title>
+        <meta
+          name="description"
+          content="Technology insights, digital transformation tips, and IT guidance for small businesses in Gujarat. Expert advice on software, web development, and business growth."
+        />
+      </Helmet>
       <PageBanner
         banner={banner}
         title="Blogs"

@@ -7,10 +7,21 @@ import { companyDetails } from "../data/constant";
 import { IoMail } from "react-icons/io5";
 import MapComponent from "../Components/Website/MapComponent";
 import ContactForm2 from "../Components/ContactForm2";
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
   return (
     <>
+      {" "}
+      <Helmet>
+        <title>
+          Contact Qualiscent Infotech - Get Free IT Consultation Gujarat{" "}
+        </title>
+        <meta
+          name="description"
+          content="Contact us for affordable IT solutions in Gujarat. Free consultation for small businesses. Remote support available. Get custom quote for your technology needs."
+        />
+      </Helmet>
       <div className="pt-[5rem] md:pt-[7rem]">
         <div className="aspect-[6/4] md:aspect-[19/8] relative">
           <img

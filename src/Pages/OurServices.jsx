@@ -5,10 +5,20 @@ import Services from "../Components/Services";
 import { services } from "../data/constant";
 import Testimonials from "../Components/Testimonials";
 import ContactForm from "../Components/ContactForm";
+import { Helmet } from "react-helmet-async";
 
 const OurServices = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          IT Services for Small Business Gujarat | Software & Digital Solutions
+        </title>
+        <meta
+          name="description"
+          content="Comprehensive IT services for Gujarat SMBs. Custom software development, web solutions, app development, and digital transformation. Affordable packages for small business."
+        />
+      </Helmet>
       <PageBanner
         banner={banner}
         title="Our Services"
